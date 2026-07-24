@@ -416,7 +416,7 @@
         "uuid": "b59ceed3-61e6-476f-b90e-50a003c36e74"
       }
     ],
-    "used_designators": "R7-13,J4-7,#PWR15-21,C5-7",
+    "used_designators": "#FLG1-4,R6,J2,J8-9,D2,#PWR10-11,#PWR13,#PWR22",
     "variants": []
   },
   "sheets": [
@@ -431,10 +431,6 @@
     [
       "957b6cfc-5cca-4c3d-891b-790d9803ad0c",
       "nRF52832_Core"
-    ],
-    [
-      "eaa5163d-153a-4d57-937e-af250e4705c2",
-      "ESP32_Module"
     ],
     [
       "fbbcdddd-c22a-4192-ba33-2c63340aca20",

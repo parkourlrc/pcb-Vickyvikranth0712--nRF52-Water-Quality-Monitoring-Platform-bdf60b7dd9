@@ -877,7 +877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 113.03 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1041,7 +1041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.1252 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1123,7 +1123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.382 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -1362,7 +1362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.052 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -1444,7 +1444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 142.24 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1529,7 +1529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.772 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -1768,7 +1768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.172 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -1850,7 +1850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 108.9152 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1932,7 +1932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 172.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2017,7 +2017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 87.63 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2259,7 +2259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.5152 73.66 0)
 			(hide yes)
 			(show_name no)

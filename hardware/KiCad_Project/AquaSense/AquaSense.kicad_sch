@@ -9,8 +9,168 @@
 		(date "2026-07-20")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 151.13 49.53) (xy 160.02 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae87a17-d627-4d10-8902-ec879b15d941")
+	)
+	(wire
+		(pts
+			(xy 151.13 41.91) (xy 160.02 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38659931-1419-4ff0-bb1e-474aaf268ede")
+	)
+	(wire
+		(pts
+			(xy 151.765 97.79) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4fa84c-7329-4321-9ede-3088c74242cf")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f98da93-d509-41c0-9f7a-09d8ae6f3cde")
+	)
+	(wire
+		(pts
+			(xy 151.13 64.77) (xy 156.21 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4eb660-dcc5-46d1-8923-60777fbe6578")
+	)
+	(wire
+		(pts
+			(xy 151.765 91.44) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841e2af0-5ba7-421c-9ccd-37e8fc31d9f1")
+	)
+	(wire
+		(pts
+			(xy 151.13 72.39) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44e1674-ce0a-4482-aeac-f2454d5c6364")
+	)
+	(wire
+		(pts
+			(xy 151.13 45.72) (xy 160.02 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad65fae7-4cd8-4bb5-ba87-fc451bacde35")
+	)
+	(wire
+		(pts
+			(xy 158.75 59.69) (xy 158.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2062422-7a88-49a0-9c47-f3199f78d7bb")
+	)
+	(wire
+		(pts
+			(xy 153.67 72.39) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d540ee26-ea0b-4851-b769-80498508797c")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c2fa42-19d5-425a-8c4e-d763a346b77f")
+	)
+	(wire
+		(pts
+			(xy 151.765 85.09) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daecc375-5b45-4ecc-9c18-b437e417abd2")
+	)
+	(wire
+		(pts
+			(xy 151.13 38.1) (xy 160.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de424b03-1895-4053-acbf-39ff18fa7d10")
+	)
+	(wire
+		(pts
+			(xy 156.21 64.77) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec530c4b-2fed-407a-8616-b45c46f59e99")
+	)
+	(wire
+		(pts
+			(xy 151.13 68.58) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45387d4-e24e-4d1a-91d6-4f666ce23bff")
+	)
+	(wire
+		(pts
+			(xy 151.13 59.69) (xy 158.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c302af-ae0e-4e48-bb91-c53a7b9bbdfa")
+	)
 	(sheet
-		(at 64.77 88.9)
+		(at 118.745 81.28)
 		(size 33.02 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26,7 +186,7 @@
 		)
 		(uuid "086a02a4-2dc3-415f-a1f6-42c68cf11fac")
 		(property "Sheetname" "Debug_Programming"
-			(at 64.77 88.1884 0)
+			(at 118.745 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37,7 +197,7 @@
 			)
 		)
 		(property "Sheetfile" "05_Debug_Programming.kicad_sch"
-			(at 64.77 133.9346 0)
+			(at 118.745 126.3146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46,6 +206,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SWDCLK" output
+			(at 151.765 85.09 0)
+			(uuid "25bc6d1c-0297-4071-807e-8eee0c283c39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET" output
+			(at 151.765 91.44 0)
+			(uuid "ce34d031-3f4a-43a2-9c94-c651b3cca048")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 151.765 97.79 0)
+			(uuid "78a235e7-114f-4376-a128-0a24a55f0d9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -57,8 +247,8 @@
 		)
 	)
 	(sheet
-		(at 107.315 88.9)
-		(size 34.29 44.45)
+		(at 160.02 81.28)
+		(size 33.655 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73,7 +263,7 @@
 		)
 		(uuid "69da725e-1eaa-4ac0-b226-c3c8dfae097c")
 		(property "Sheetname" "User_Interface"
-			(at 107.315 88.1884 0)
+			(at 160.02 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84,7 +274,7 @@
 			)
 		)
 		(property "Sheetfile" "06_User_Interface.kicad_sch"
-			(at 107.315 133.9346 0)
+			(at 160.02 126.3146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93,6 +283,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "STATUS_LED" input
+			(at 160.02 100.33 180)
+			(uuid "7f3afb25-22a4-4f8a-9a44-9d82885a6c45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -104,7 +304,7 @@
 		)
 	)
 	(sheet
-		(at 64.77 27.94)
+		(at 118.11 31.75)
 		(size 33.02 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -120,7 +320,7 @@
 		)
 		(uuid "957b6cfc-5cca-4c3d-891b-790d9803ad0c")
 		(property "Sheetname" "nRF52832_Core"
-			(at 64.77 27.2284 0)
+			(at 118.11 31.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -131,7 +331,7 @@
 			)
 		)
 		(property "Sheetfile" "02_nRF52832_Core.kicad_sch"
-			(at 64.77 74.2446 0)
+			(at 118.11 78.0546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -140,6 +340,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SWDCLK" output
+			(at 151.13 72.39 0)
+			(uuid "0479b13d-de34-46ee-8b4a-307dc5376268")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET" input
+			(at 151.13 68.58 0)
+			(uuid "bce646d5-e98b-42bb-8102-70dd2c2c8fcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 151.13 64.77 0)
+			(uuid "fb73847e-b85a-4655-ba69-82ab2bfed4e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pH_ADC" input
+			(at 151.13 45.72 0)
+			(uuid "aa45caa1-d86d-49e0-8d24-24fdf253f0dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DS18B20_IO" bidirectional
+			(at 151.13 41.91 0)
+			(uuid "d0603ca3-2721-4d58-a55e-6feecfbeb3e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Status_LED" output
+			(at 151.13 59.69 0)
+			(uuid "39ce0f77-ebc7-459e-95c5-04aedea5791a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TDS_ADC" input
+			(at 151.13 49.53 0)
+			(uuid "46d3a45b-bbb6-44ad-9c11-7ead86aa57eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Turbidity_ADC" input
+			(at 151.13 38.1 0)
+			(uuid "56348574-0e47-4006-b154-19f2a8e5ddc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -151,7 +431,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 27.94)
+		(at 82.55 59.055)
 		(size 31.75 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -167,7 +447,7 @@
 		)
 		(uuid "bd0eb37f-6db1-4458-8208-5dcb424852f4")
 		(property "Sheetname" "Power"
-			(at 24.13 27.2284 0)
+			(at 82.55 58.3434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -178,7 +458,7 @@
 			)
 		)
 		(property "Sheetfile" "01_Power.kicad_sch"
-			(at 24.13 74.2446 0)
+			(at 82.55 105.3596 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -198,55 +478,8 @@
 		)
 	)
 	(sheet
-		(at 107.315 27.305)
-		(size 33.02 45.72)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "eaa5163d-153a-4d57-937e-af250e4705c2")
-		(property "Sheetname" "ESP32_Module"
-			(at 107.315 26.5934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "03_ESP32_Module.kicad_sch"
-			(at 107.315 73.6096 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "AquaSense"
-				(path "/b59ceed3-61e6-476f-b90e-50a003c36e74"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 24.13 88.9)
-		(size 31.75 44.45)
+		(at 160.02 31.75)
+		(size 31.75 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -261,7 +494,7 @@
 		)
 		(uuid "fbbcdddd-c22a-4192-ba33-2c63340aca20")
 		(property "Sheetname" "Sensor_Interfaces"
-			(at 24.13 88.1884 0)
+			(at 160.02 31.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -272,7 +505,7 @@
 			)
 		)
 		(property "Sheetfile" "04_Sensor_Interfaces.kicad_sch"
-			(at 24.13 133.9346 0)
+			(at 160.02 78.0546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -281,6 +514,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Turbidity_ADC" output
+			(at 160.02 38.1 180)
+			(uuid "f9a02bfd-0443-4ba0-b8f5-c773918ba1b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DS18B20_IO" bidirectional
+			(at 160.02 41.91 180)
+			(uuid "4cf028b0-6498-4868-83e8-95d3b6d64ff5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pH_ADC" output
+			(at 160.02 45.72 180)
+			(uuid "b02afa42-f871-4c87-b487-a13ce9be8fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDS_ADC" output
+			(at 160.02 49.53 180)
+			(uuid "e6c28bc9-e592-411a-abee-75f440d89bc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
