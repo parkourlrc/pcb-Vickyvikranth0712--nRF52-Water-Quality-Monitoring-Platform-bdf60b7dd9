@@ -1736,7 +1736,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.355 68.58) (xy 50.8 68.58)
+			(xy 45.72 68.58) (xy 50.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1795,7 +1795,7 @@
 		(uuid "a880ae2a-7476-465c-bcb3-e79d801e7da3")
 	)
 	(label "UART_TX"
-		(at 46.355 68.58 270)
+		(at 45.72 68.58 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,7 +1931,7 @@
 		)
 		(uuid "4959d159-d62f-48d6-afae-a2bc7480a778")
 	)
-	(hierarchical_label "Status_LED"
+	(hierarchical_label "STATUS_LED"
 		(shape output)
 		(at 157.48 64.77 0)
 		(effects
