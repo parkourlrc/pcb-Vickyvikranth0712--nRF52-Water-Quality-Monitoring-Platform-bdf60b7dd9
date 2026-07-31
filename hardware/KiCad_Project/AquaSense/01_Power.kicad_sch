@@ -2920,6 +2920,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 133.35 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "6e3b3499-a99b-4244-a042-ed507884fc93")
 		)
