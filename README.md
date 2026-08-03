@@ -159,9 +159,6 @@ nRF52-Water-Quality-Monitoring-Platform/
 │   ├── 3D/
 │   └── Schematics/
 │
-│
-
-│
 ├── README.md
 └── LICENSE
 ```
